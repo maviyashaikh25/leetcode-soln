@@ -2,9 +2,7 @@ import java.util.PriorityQueue;
 import java.util.Collections;
 
 class MedianFinder {
-    // Max-heap for the smaller half
     private PriorityQueue<Integer> left;
-    // Min-heap for the larger half
     private PriorityQueue<Integer> right;
 
     public MedianFinder() {
